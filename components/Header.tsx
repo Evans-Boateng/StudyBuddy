@@ -8,7 +8,7 @@ export default function Header() {
         <p className="text-blue text-2xl">StudyBuddy</p>
       </div>
       <div>
-        <button className={`${plusJakartaSans.className} border border-blue-600 rounded-md py-1 px-4 sm:px-6 hover:text-white hover:bg-blue-600 transition duration-300 ease-in-out`}>Login</button>
+        <button className={`${plusJakartaSans.className} border border-blue-600 rounded-md py-1 px-4 sm:px-6 hover:text-white hover:bg-blue-600 transition duration-300 ease-in-out antialiased`}>Login</button>
       </div>
       
     </div>

@@ -21,13 +21,13 @@ export default function Home() {
           `${poppins.className} 
           bg-blue-600 
           hover:bg-blue-500 transition duration-300 ease-in-out text-white font-medium text-md sm:text-lg py-[6px] px-9 sm:px-12 rounded-[20px]  
-           shadow-lg`
+           shadow-lg antialiased`
         }>
           Get started
         </button>
       </div>
       <div className="mt-8 flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="animate-bounce" width="4em" height="4em" viewBox="0 0 448 512" data-v-e8d572f6="">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="animate-bounce text-gray-400" width="4em" height="4em" viewBox="0 0 448 512" data-v-e8d572f6="">
           <path fill="currentColor" d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7L86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
         </svg>
       </div>
