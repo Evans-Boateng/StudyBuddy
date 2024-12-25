@@ -5,7 +5,8 @@ export const features = [
     },
     {
       title: "Explore Study Rooms",
-      description: "Browse through a variety of topics or use the search feature to find rooms that match your interests. There’s always a room for every challenge!"
+      description: "Browse through a variety of topics or use the search feature to find rooms that match your interests. There’s always a room for every challenge!",
+      
     },
     {
       title: "Create Your Own Room",
@@ -21,6 +22,7 @@ export const features = [
     },
     {
       title: "Stay Organized",
-      description: "Keep track of all your activities, study rooms, and conversations from your profile. Your learning hub, all in one place."
+      description: "Keep track of all your activities, study rooms, and conversations from your profile. Your learning hub, all in one place.",
+      
     }
   ];
