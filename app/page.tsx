@@ -4,6 +4,7 @@ import { ImagesSliderContainer } from "@/components/ui/ImagesSlider";
 import dynamic from 'next/dynamic';
 import { poppins } from "@/components/ui/fonts";
 import { features } from "@/components/ui/steps";
+import Link from "next/link";
 
 // Dynamically import the component, disabling SSR
 // const ClientOnlyComponent = dynamic(() => import('../components/ClientOnlyComponent'), {
@@ -24,7 +25,7 @@ export default function Home() {
           hover:bg-blue-500 transition duration-300 ease-in-out text-white font-medium text-md sm:text-lg py-[6px] px-9 sm:px-12 rounded-[20px]  
            shadow-lg antialiased`
         }>
-          Get started
+          <Link href='/signup'>Get started</Link>
         </button>
       </div>
       <div className="mt-8 flex items-center justify-center">
