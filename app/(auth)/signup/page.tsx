@@ -31,7 +31,7 @@ export default function Page() {
         <form className="w-full">
           <div className="flex flex-col justify-center w-full">
             <label className={`${inter.className} text-[14px] font-medium`}>Username</label>
-            <input type="email" placeholder="Enter your username" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50`} />
+            <input type="text" placeholder="Enter your username" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50`} />
             <label className={`${inter.className} text-[14px] font-medium mt-5`}>Email</label>
             <input type="email" placeholder="Enter your email address" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50`} />
             <label className={`${inter.className} text-[14px] font-medium mt-5`}>Password</label>
