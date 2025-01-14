@@ -16,7 +16,7 @@ export default function Page() {
         <h1 className={`${poppins.className} mt-4 text-2xl font-semibold`}>Log in</h1>
         <div className="flex flex-col items-center justify-center border-x-inherit  text-wrap">
           <p className={`${inter.className} text-[14px] mt-4  text-[#788BA5] text-center  font-medium antialiased`}>
-            Welcome to StudyBuddy! Sign up to join study rooms,  collaborate <br/>  with peers, and excel together
+            Welcome to StudyBuddy! Log in to access your study rooms, collaborate <br/>  with peers, and excel together
           </p>
         </div>
         <div className="flex flex-col items-center justify-center w-full">
