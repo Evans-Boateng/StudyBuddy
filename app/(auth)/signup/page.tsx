@@ -1,7 +1,8 @@
 import { poppins } from "@/components/ui/fonts"
 import Image from "next/image"
 import { inter } from "@/components/ui/fonts"
-import Link from "next/link"
+import Link from "next/link";
+import PasswordInput from "@/components/ui/passwordInput";
 export default function Page() {
   return (
     <div className="flex flex-col items-center justify-center  h-screen p-6">
@@ -31,11 +32,11 @@ export default function Page() {
         <form className="w-full">
           <div className="flex flex-col justify-center w-full">
             <label className={`${inter.className} text-[14px] font-medium`}>Username</label>
-            <input type="text" placeholder="Enter your username" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50`} />
+            <input type="text" placeholder="Enter your username" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-[3px] focus:ring-blue-300 focus:ring-opacity-50`} />
             <label className={`${inter.className} text-[14px] font-medium mt-5`}>Email</label>
-            <input type="email" placeholder="Enter your email address" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50`} />
+            <input type="email" placeholder="Enter your email address" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-[3px] focus:ring-blue-300 focus:ring-opacity-50`} />
             <label className={`${inter.className} text-[14px] font-medium mt-5`}>Password</label>
-            <input type="password" placeholder="Enter your password" className={`${inter.className} border border-gray-200 text-[14px] w-full px-3 py-[8px] focus:border-blue-600 placeholder-slate-400 rounded-md mt-2  focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50`} />
+            <PasswordInput />
           </div>
           <button className={`${inter.className} bg-blue-600 text-white font-medium text-[15px] py-2 rounded-md w-full mt-6 hover:bg-blue-500 transition duration-300 ease-in-out shadow-sm antialiased`}>
             Create account
